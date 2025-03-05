@@ -7,76 +7,42 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="hero" style="background: url('istockphoto-1081960334-612x612.jpg') no-repeat center center/cover;">
+    <header class="hero" style="background-image: url('https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/istockphoto-1081960334-612x612.jpg'); background-size: cover; background-position: center;">
         <h1>Re-vive Herbal Capsules</h1>
-    </header>
-    
-    <section class="hero-content">
         <h2>REVITALIZE YOUR PERFORMANCE, FEEL STRONGER & MORE CONFIDENT</h2>
         <p>Natural supplement designed to enhance male vitality, stamina, and overall performance.</p>
         <a href="#order" class="btn">Claim 20% Offer Now!</a>
-    </section>
+    </header>
     
     <section class="product-info">
-        <h2>Why Choose Re-vive?</h2>
         <img src="https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/Revive-1.webp" alt="Re-vive Package">
+        <h2>Why Choose Re-vive?</h2>
         <p>✅ Improves erection, stamina, and libido</p>
         <p>✅ Increases sex drive and endurance</p>
         <p>✅ Boosts energy levels</p>
         <p>✅ Enhances male fertility</p>
         <p>✅ Strengthens bones and muscles, relieves knee and waist weakness</p>
+        <h3>Pricing & Urgency</h3>
+        <p>Small Package: <del>GHS 230</del> <strong>GHS 192</strong> (20% Off)</p>
+        <p>Big Package: <del>GHS 662</del> <strong>GHS 552</strong> (20% Off)</p>
+        <p><strong>Limited Stock Available – Order Now!</strong></p>
     </section>
     
-    <section class="pricing">
-        <h2>Re-vive Packages</h2>
-        <div class="price-box">
-            <h3>Small Pack</h3>
-            <p><span class="original-price">GHS 230</span> <strong>GHS 192</strong> (20% OFF)</p>
-        </div>
-        <div class="price-box">
-            <h3>Big Pack</h3>
-            <p><span class="original-price">GHS 662</span> <strong>GHS 552</strong> (20% OFF)</p>
-        </div>
-        <p class="limited-stock">Limited Stock Available!</p>
-    </section>
-    
-    <section class="testimonials">
-        <h2>What People Say About Us</h2>
-        <div class="testimonial">
-            <img src="https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/Andrew_Acquah.jpg" alt="Testimonial">
-            <blockquote>
-                <p>"Re-vive Capsule saved my marriage! My confidence is back and my wife is happy. Thank you!"</p>
-                <cite>- Sam Palmer</cite>
-            </blockquote>
-        </div>
-        <div class="testimonial">
-            <img src="https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/Daniel_Gregrose.jpg" alt="Testimonial">
-            <blockquote>
-                <p>"The most reliable herbal capsule for erectile issues, libido, stamina, and premature ejaculation. Fast delivery in Accra!"</p>
-                <cite>- Daniel Gregrose</cite>
-            </blockquote>
-        </div>
-        <div class="testimonial">
-            <img src="https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/victor_soyemi.jpg" alt="Testimonial">
-            <blockquote>
-                <p>"Revive made me feel like a teenager again!"</p>
-                <cite>- Victor Soyemi</cite>
-            </blockquote>
-        </div>
-    </section>
-    
-    <section id="order">
-        <h2>Claim Your 20% Discount Now!</h2>
+    <section class="order-section">
+        <h2>Place Your Order Now</h2>
         <form action="https://momopay.com/pay" method="POST">
             <input type="hidden" name="merchant_id" value="521261">
             <input type="hidden" name="merchant_name" value="Kayibue Herbal and Alternative Hospital">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="tel" name="phone" placeholder="Your Phone" required>
+            <select name="package" required>
+                <option value="small">Small Package - GHS 192</option>
+                <option value="big">Big Package - GHS 552</option>
+            </select>
             <p><strong>Payment Instructions:</strong> Use your name as the reference when making payment.</p>
             <p>Call us immediately after payment for confirmation.</p>
             <button type="submit" class="btn">Pay with MTN MoMo</button>
         </form>
-        <a href="#cart" class="btn add-to-cart">Add to Cart</a>
     </section>
     
     <footer>
