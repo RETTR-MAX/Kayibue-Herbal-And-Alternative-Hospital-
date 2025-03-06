@@ -1,199 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-</* General Styling */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
-}
-
-/* Header & Banner */
-header {
-    background: url('https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/handsome-young-man-hugging-kissing-600nw-499192564.webp') no-repeat center center/cover;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-header h1 {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 15px;
-    border-radius: 10px;
-}
-
-/* Sections */
-section {
-    padding: 20px;
-    text-align: center;
-    max-width: 800px;
-    margin: auto;
-}
-
-/* Buttons */
-.btn {
-    display: inline-block;
-    padding: 12px 20px;
-    font-size: 18px;
-    color: white;
-    background: #28a745;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    background: #218838;
-}
-
-/* Product Info */
-.product-info img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-/* Testimonials */
-.testimonials blockquote {
-    background: #fff;
-    padding: 15px;
-    border-left: 5px solid #28a745;
-    margin: 10px 0;
-    border-radius: 5px;
-}
-
-/* Mobile Responsive */
-@media (max-width: 768px) {
-    header {
-        height: 40vh;
-        padding: 10px;
-    }
-    header h1 {
-        font-size: 20px;
-        padding: 10px;
-    }
-    .btn {
-        font-size: 16px;
-        padding: 10px 15px;
-    }
-}
->
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Re-vive Herbal Capsules</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background: url('https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/istockphoto-1081960334-612x612.jpg') no-repeat center center/cover;
-            text-align: center;
-            padding: 100px 20px;
-            color: white;
-        }
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-        .product-info img {
-            width: 100%;
-            max-width: 400px;
-            display: block;
-            margin: auto;
-        }
-        .price {
-            font-size: 24px;
-            color: red;
-            text-decoration: line-through;
-        }
-        .discounted-price {
-            font-size: 28px;
-            font-weight: bold;
-            color: green;
-        }
-        .btn {
-            display: block;
-            width: 100%;
-            padding: 15px;
-            text-align: center;
-            background: #28a745;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
-            margin-top: 10px;
-        }
-        .btn:hover {
-            background: #218838;
-        }
-        @media (max-width: 768px) {
-            .container {
-                padding: 10px;
-            }
-        }
-    </style>
 </head>
 <body>
-    <header>
-        <h1>Re-vive Herbal Capsules</h1>
-        <p>Enhance your vitality and performance naturally</p>
+    <header class="banner">
+        <img src="https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/handsome-young-man-hugging-kissing-600nw-499192564.webp" alt="Re-vive Banner">
     </header>
     
-    <div class="container">
-        <section class="product-info">
-            <h2>Why Choose Re-vive?</h2>
-            <img src="https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/Revive-1.webp" alt="Re-vive Package">
-            <p>✅ Improves stamina, libido, and energy levels</p>
-            <p>✅ Boosts endurance and confidence</p>
-            <p>✅ Supports male reproductive health</p>
-            <h3>Pricing</h3>
-            <p>Small Pack (was <span class="price">GHS 192</span>) - Now <span class="discounted-price">GHS 230.40</span></p>
-            <p>Big Pack (was <span class="price">GHS 552</span>) - Now <span class="discounted-price">GHS 662.40</span></p>
-            <p><strong>Limited Stock Available!</strong></p>
-            <a href="#order" class="btn">Order Now - 20% Discount Applied!</a>
-        </section>
-        
-        <section class="testimonials">
-            <h2>What People Say</h2>
-            <blockquote>
-                <img src="https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/Andrew_Acquah.jpg" alt="Customer 1" style="width:50px; border-radius:50%;">
-                <p>"Re-vive changed my life! More energy and confidence."</p>
-                <cite>- Andrew Acquah</cite>
-            </blockquote>
-            <blockquote>
-                <img src="https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/Daniel_Gregrose.jpg" alt="Customer 2" style="width:50px; border-radius:50%;">
-                <p>"Best herbal product I have ever used. Highly recommended!"</p>
-                <cite>- Daniel Gregrose</cite>
-            </blockquote>
-        </section>
-        
-        <section id="order">
-            <h2>Place Your Order</h2>
-            <form action="https://momopay.com/pay" method="POST">
-                <input type="hidden" name="merchant_id" value="521261">
-                <input type="hidden" name="merchant_name" value="Kayibue Herbal and Alternative Hospital">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="tel" name="phone" placeholder="Your Phone" required>
-                <p><strong>Use your name as payment reference. Call us after payment.</strong></p>
-                <button type="submit" class="btn">Pay with MTN MoMo</button>
-            </form>
-        </section>
-    </div>
+    <section class="hero">
+        <h2>REVITALIZE YOUR PERFORMANCE, FEEL STRONGER & MORE CONFIDENT</h2>
+        <p>Natural supplement designed to enhance male vitality, stamina, and overall performance.</p>
+        <a href="#order" class="btn">Claim 20% Offer Now!</a>
+    </section>
+    
+    <section class="product-info">
+        <h2>Why Choose Re-vive?</h2>
+        <img src="https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/Revive-1.webp" alt="Re-vive Package">
+        <p>✅ Improves erection, stamina, and libido</p>
+        <p>✅ Increases sex drive and endurance</p>
+        <p>✅ Boosts energy levels</p>
+        <p>✅ Enhances male fertility</p>
+        <p>✅ Strengthens bones and muscles, relieves knee and waist weakness</p>
+    </section>
+    
+    <section class="efficiency">
+        <h2>How Efficient is Re-vive?</h2>
+        <p>The action starts within 2 hours and stays active for over 3 days.</p>
+        <p>Provides strong, long-lasting erections without difficulties.</p>
+        <p>100% natural formula, safe and restorative with continuous improvements.</p>
+    </section>
+    
+    <section class="pricing">
+        <h2>Choose Your Package</h2>
+        <div class="price-option">
+            <h3>Small Pack</h3>
+            <p><del>GH₵230</del> <strong>GH₵192 (20% OFF)</strong></p>
+        </div>
+        <div class="price-option">
+            <h3>Big Pack</h3>
+            <p><del>GH₵690</del> <strong>GH₵552 (20% OFF)</strong></p>
+        </div>
+        <p class="limited-stock">🔥 Limited Stock Available!</p>
+    </section>
+    
+    <section class="ingredients">
+        <h2>Ingredients</h2>
+        <img src="https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/1640779612984.jpeg" alt="Herbal Ingredients">
+        <p>🌿 Horny Goat Weed (Epimedium) - Enhances libido and increases blood flow.</p>
+        <p>🌿 Icariin - Boosts erectile function and testosterone levels.</p>
+        <p>🌿 Traditional Chinese Herbal Blend for maximum potency.</p>
+    </section>
+    
+    <section class="testimonials">
+        <h2>What People Say About Us</h2>
+        <blockquote>
+            <img src="https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/Andrew_Acquah.jpg" alt="Andrew Acquah">
+            <p>"Re-vive Capsule saved my marriage! My confidence is back and my wife is happy. Thank you!"</p>
+            <cite>- Andrew Acquah</cite>
+        </blockquote>
+        <blockquote>
+            <img src="https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/Daniel_Gregrose.jpg" alt="Daniel Gregrose">
+            <p>"The most reliable herbal capsule for erectile issues, libido, stamina, and premature ejaculation. Fast delivery in Accra!"</p>
+            <cite>- Daniel Gregrose</cite>
+        </blockquote>
+        <blockquote>
+            <img src="https://raw.githubusercontent.com/RETTR-MAX/Kayibue-Herbal-And-Alternative-Hospital-/main/victor_soyemi.jpg" alt="Victor Soyemi">
+            <p>"Revive made me feel like a teenager again!"</p>
+            <cite>- Victor Soyemi</cite>
+        </blockquote>
+    </section>
+    
+    <section id="order">
+        <h2>Claim Your 20% Discount Now!</h2>
+        <form action="https://momopay.com/pay" method="POST">
+            <input type="hidden" name="merchant_id" value="521261">
+            <input type="hidden" name="merchant_name" value="Kayibue Herbal and Alternative Hospital">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="tel" name="phone" placeholder="Your Phone" required>
+            <p><strong>Payment Instructions:</strong> Use your name as the reference when making payment.</p>
+            <p>Call us immediately after payment for confirmation.</p>
+            <button type="submit" class="btn">Pay with MTN MoMo</button>
+        </form>
+    </section>
     
     <footer>
         <p>&copy; 2025 Kayibue Herbal and Alternative Hospital. All Rights Reserved.</p>
